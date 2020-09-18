@@ -24,7 +24,7 @@ const Header = () => {
                     <Nav.Link to="/destination" style={{marginLeft:'50px', color:'white', fontWeight:'600'}} href="#features">Destination</Nav.Link>
                     <Nav.Link to="/blog" style={{marginLeft:'50px', color:'white', fontWeight:'600'}} href="#pricing">Blog</Nav.Link>
                     <Nav.Link to="/contact" style={{marginLeft:'50px', color:'white', fontWeight:'600'}} href="#features">Contact</Nav.Link>
-                     <Button style={{marginLeft:'50px', width:'80px', height:'40px', borderRadius:'10px', fontWeight:'600'}} variant="warning">Login</Button>
+                     <Button style={{marginLeft:'50px', width:'80px', height:'40px', borderRadius:'10px', fontWeight:'600'}} href ="/login"variant="warning">Login</Button>
                 </Nav>
             </Navbar>
         </div>
