@@ -62,7 +62,7 @@ const Book = () => {
                         </Form>
                         <div className="d-flex justify-content-center">
                             {/* <Link to ={`/destination/${id}`}>Confirm Now</Link> */}
-                            <Button onClick={() => handleclick(id)} variant="warning"> Booking Now </Button>
+                            <Button onClick={() => handleclick(id)} variant="warning"> Confirm Now </Button>
                         </div>
                     </div>
 
