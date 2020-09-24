@@ -30,7 +30,7 @@ const Destination = () => {
                                 </div>
 
                                 <div className="apartment" style={{ marginLeft: "35px" }}>
-                                    <p style={{ color: "white" }}>{name1} </p>
+                                    <h3 style={{ color: "white" }}>{name1} </h3>
                                     <p style={{ color: "white" }}>
                                         4 guests 2 bedrooms 2 beds 2 baths <br />
                                             Wifi Air conditioning Kitchen <br />
@@ -47,7 +47,7 @@ const Destination = () => {
                                 </div>
 
                                 <div className="apartment" style={{ marginLeft: "35px" }}>
-                                    <p style={{ color: "white" }}>{name2} </p>
+                                    <h3 style={{ color: "white" }}>{name2} </h3>
                                     <p style={{ color: "white" }}>
                                         4 guests 2 bedrooms 2 beds 2 baths <br />
                                             Wifi Air conditioning Kitchen <br />
@@ -64,7 +64,7 @@ const Destination = () => {
                                 </div>
 
                                 <div className="apartment" style={{ marginLeft: "35px" }}>
-                                    <p style={{ color: "white" }}>{name3} </p>
+                                    <h3 style={{ color: "white" }}>{name3} </h3>
                                     <p style={{ color: "white" }}>
                                         4 guests 2 bedrooms 2 beds 2 baths <br />
                                             Wifi Air conditioning Kitchen <br />

@@ -35,9 +35,9 @@ function App() {
     <Route path = "/book/:bookid">
     <Book></Book>
     </Route>
-    <Route path ="/destination/:destinationid">
+    <PrivateRoute path ="/destination/:destinationid">
     <Destination></Destination>
-    </Route>
+    </PrivateRoute>
     </Switch>
     </Router>
    </UserContext.Provider>

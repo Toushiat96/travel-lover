@@ -27,7 +27,11 @@ const Header = () => {
                     <Nav.Link to="/destination" style={{ marginLeft: '50px', color: 'white', fontWeight: '600', fontFamily: 'Montserrat' }} href="#features">Destination</Nav.Link>
                     <Nav.Link to="/blog" style={{ marginLeft: '50px', color: 'white', fontWeight: '600', fontFamily: 'Montserrat' }} href="#pricing">Blog</Nav.Link>
                     <Nav.Link to="/contact" style={{ marginLeft: '50px', color: 'white', fontWeight: '600', fontFamily: 'Montserrat' }} href="#features">Contact</Nav.Link>
-                    <Button style={{ marginLeft: '50px', width: '80px', height: '40px', borderRadius: '10px', fontWeight: '600' }} href="/login" variant="warning" >Login {loggedInUser.name}</Button>
+                    <li>
+                   
+                    <Button style={{ marginLeft: '50px', width: '80px', height: '40px', borderRadius: '10px', fontWeight: '600' }} href="/login" variant="warning" >
+                    Login </Button>
+                    </li>
                 </Nav>
             </Navbar>
         </div>
